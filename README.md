@@ -47,7 +47,7 @@ namespace my.new.function
             builder.Services.AddSingleton<IExampleInterface, ExampleImplementation>();
 
             builder.Services.AddSingleton<InjectBindingProvider>();
-            builder.AddExtension<InjectConfiguration>();
+            builder.AddExtension<InjectConfigProvider>();
         }
     }
 }
