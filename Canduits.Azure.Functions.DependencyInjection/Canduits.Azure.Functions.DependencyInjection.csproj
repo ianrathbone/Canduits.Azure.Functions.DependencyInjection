@@ -1,7 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ian Rathbone</Authors>
+    <Company>Canduits</Company>
+    <Description>Simplistic Microsoft.Extensions.DependencyInjection implementation exposing a binding attribute for use with Azure Functions</Description>
+    <Copyright>2018</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/ianrathbone/Canduits.Azure.Functions.DependencyInjection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ianrathbone/Canduits.Azure.Functions.DependencyInjection</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageReleaseNotes>First version of package (using filters in preview)</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
