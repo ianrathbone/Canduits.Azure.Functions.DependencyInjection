@@ -1,6 +1,8 @@
 # Canduits.Azure.Functions.DependencyInjection
 Simplistic Microsoft.Extensions.DependencyInjection implementation exposing a binding attribute for use with Azure Functions in NetCore 2.1
 
+![Azure Pipeline Build Status](https://ianrathbone.visualstudio.com/Open%20Source/_apis/build/status/Build%20and%20Publish%20Canduits%20Functions%20DI%20Package "Azure Pipeline Build Status")
+
 Example usage:
 
 ### Function Declaration using a defined interface
