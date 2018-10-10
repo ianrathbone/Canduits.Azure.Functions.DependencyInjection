@@ -9,7 +9,7 @@ Example usage:
 ```C#
 [FunctionName("ExampleFunction")]
 public static async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)]HttpRequest req,
-[Inject] IExampleInterface example, ILogger log)
+ILogger log, [Inject]IExampleInterface example)
 {
     example.DoSomeCoolStuff();
     return new OkResult();
