@@ -1,0 +1,5 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="CopyTargetPathToEarlyPublish" BeforeTargets="Publish">
+    <Copy SourceFiles="$(TargetPath)" DestinationFiles="$(FunctionsTargetPath)" />
+  </Target> 
+</Project>
