@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Canduits.Azure.Functions.DependencyInjection.targets">
+    <None Update="canduits.azure.functions.dependencyinjection.targets">
       <Pack>true</Pack>
       <PackagePath>build</PackagePath>
     </None>
