@@ -6,17 +6,24 @@
     <Company>Canduits</Company>
     <Description>Simplistic Microsoft.Extensions.DependencyInjection implementation exposing a binding attribute for use with Azure Functions</Description>
     <Copyright>2018</Copyright>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/ianrathbone/Canduits.Azure.Functions.DependencyInjection</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ianrathbone/Canduits.Azure.Functions.DependencyInjection</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
-    <PackageReleaseNotes>First version of package (using filters in preview)</PackageReleaseNotes>
+    <PackageReleaseNotes>Adding targets file to add build step ensuring that files are ready for publishing to fix the extensions.json file discovery of startup</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="canduits.azure.functions.dependencyinjection.targets">
+      <Pack>true</Pack>
+      <PackagePath>build</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
