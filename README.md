@@ -1,3 +1,7 @@
+# IMPORTANT:
+
+I'm not intending to support this now that [Microsoft have documented official support](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection) for Dependency Injection in Azure Functions 1.0.28.
+
 # Canduits.Azure.Functions.DependencyInjection
 Simplistic Microsoft.Extensions.DependencyInjection implementation exposing a binding attribute for use with Azure Functions in NetCore 2.1
 
